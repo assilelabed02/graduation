@@ -1,0 +1,40 @@
+.card {
+  flex: 0 0 auto;
+  max-width: 18rem;
+  margin: 1rem 5px;
+}
+
+.card .links {
+  display: flex;
+  background-color: #eee;
+}
+
+.links a {
+  width: 100%;
+  display: block;
+}
+
+.links .btn {
+  width: 100%;
+  display: flex;
+  border-radius: 0;
+  justify-content: center;
+  border: 1px solid #d1d1d1;
+}
+
+.card .view details {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-details {
+  text-decoration: none;
+}
+
+.view-details:hover {
+  text-decoration: underline;
+}
